@@ -17,7 +17,7 @@
 
 .hamburguer{
     /* background-color: red; */
-    width: 10rem;
+    width: 5rem;
     height: 2rem;
     position: fixed;
     z-index: 100;
@@ -28,9 +28,7 @@
     justify-content: space-evenly;
     cursor: pointer;
   }
-.hamburguer:hover{
-    background-color: rgb(131, 45, 19);
-}
+
 .hamburguer span{
     position: absolute;
     left: 5rem;
@@ -45,7 +43,7 @@
 }
 
 .line {
-    width: 100%;
+    width: 50%;
     height: 0.1rem;
     background-color: #fff;
     box-shadow: 0.1rem 0.1rem 1px #000;
